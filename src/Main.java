@@ -5,8 +5,13 @@ public class Main {
         int b = 4;
         int c = add(a, b);
         System.out.println(c);
+        int d = multiply(a,b);
+        System.out.println(d);
     }
     public static int add (int a, int b) {
         return a + b;
+    }
+    public static int multiply (int a, int b) {
+        return a * b;
     }
 }
